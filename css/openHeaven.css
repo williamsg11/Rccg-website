@@ -1,0 +1,157 @@
+body{
+    background-color: rgba(5, 5, 202, 0.801);
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: rgba(85, 69, 69, 0.411);
+    position: sticky;
+   
+    
+
+}
+
+nav ul{
+    list-style: none;  
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 30px 0px 30px;
+    text-decoration: none;
+} 
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: cyan;
+    text-decoration: underline;
+}
+
+
+nav a{
+    text-decoration: none;
+}
+
+nav img{
+    width: 50px;
+}
+
+h1  {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.s;
+}
+
+.ee:hover{
+    box-shadow: 0 10px 16px 0 black;
+}
+
+a.ee{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.text{
+    padding: 2px 16px;
+}
+
+h5{
+    text-align: center;
+    margin-top:  4em;
+    font-size: 18px;
+    color:white;
+   }
+
+.llo{
+    width: 30px;
+    padding-left: 2em;
+    margin-right: 12px;
+}
+
+.add{
+    text-align: center;
+    color:  white;
+    font-size: 18px;
+}
+
+
+
+.footer{
+   background-color: rgba(0, 0, 0, 0.657);
+   display: flex;
+   
+}
+
+.footer-div{
+    margin: 10px 100px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.footer-div h3{
+    font-family: sans-serif;
+    font-size:22px;
+    border-bottom: 2px solid white;
+}
+
+.footer-div a{
+    color: white;
+    font-family: sans-serif;
+    margin: 5px ;
+    text-decoration: none;
+}
+.footer-div a:hover{
+    color: cyan;
+}
+
+.copy-right-div{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+
+.copy-right-div p{
+    color: white;
+    padding-left: 10em;
+   
+    
+ }
+
+.social-div{
+    margin-top: 1em;
+    padding-left: 10px;
+  } 
+
+ .social-div a{
+    color: white;
+ }
+
+ .social-div a:hover{
+    color: cyan;
+ }
